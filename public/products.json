@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "shortDescription": "Laptop de gama alta con 16GB de RAM y 512GB SSD.",
+    "longDescription": "Esta laptop de gama alta cuenta con 16GB de RAM, un SSD de 512GB y un procesador de última generación, ideal para manejar software intensivo de manera rápida y eficiente. Perfecta tanto para profesionales como para estudiantes, ofrece un diseño elegante y portátil, acompañado de una pantalla de alta resolución que mejora la experiencia visual en tareas diarias o disfrute multimedia.",
+    "price": 1500,
+    "image": "/src/images/laptop.png"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "shortDescription": "Smartphone con pantalla deslumbrante y procesador rápido.",
+    "longDescription": "El último modelo de smartphone te ofrece una pantalla vibrante con colores nítidos y un procesador ultrarrápido que permite ejecutar múltiples aplicaciones de manera fluida. Además, cuenta con una cámara de alta resolución para fotos y videos impresionantes. Es ideal para usuarios que buscan rendimiento y estilo en un solo dispositivo.",
+    "price": 900,
+    "image": "/src/images/smartphone.png"
+  },
+  {
+    "id": 3,
+    "name": "Tablet",
+    "shortDescription": "Tablet de 10 pulgadas con 128GB de almacenamiento.",
+    "longDescription": "Esta tablet de 10 pulgadas combina rendimiento y portabilidad, ideal para tareas diarias, ver contenido multimedia o jugar. Con 128GB de almacenamiento, te ofrece suficiente espacio para tus aplicaciones, documentos y entretenimiento. Su pantalla de alta resolución proporciona una excelente experiencia visual, perfecta para leer o navegar por la web.",
+    "price": 600,
+    "image": "/src/images/tablet.png"
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "shortDescription": "Smartwatch resistente al agua con monitor de ritmo cardíaco.",
+    "longDescription": "Este smartwatch no solo es resistente al agua, sino que también cuenta con funciones avanzadas como el monitor de ritmo cardíaco y GPS integrado, ideal para los amantes del deporte. Su diseño moderno y cómodo lo hace perfecto tanto para el uso diario como para sesiones de ejercicio intensivas. Además, puedes recibir notificaciones y controlar tu música directamente desde tu muñeca.",
+    "price": 300,
+    "image": "/src/images/smartwatch.png"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Headphones",
+    "shortDescription": "Auriculares inalámbricos con cancelación de ruido.",
+    "longDescription": "Disfruta de tu música sin distracciones con estos auriculares inalámbricos que cuentan con tecnología de cancelación de ruido. Ofrecen una batería de 20 horas de duración, lo que los convierte en la opción perfecta para viajes largos o días de trabajo intensivo. Su diseño ergonómico proporciona comodidad incluso durante horas de uso prolongado.",
+    "price": 200,
+    "image": "/src/images/wirelessheadphones.png"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Console",
+    "shortDescription": "Consola de videojuegos de próxima generación con gráficos 4K.",
+    "longDescription": "Esta consola de videojuegos de nueva generación está diseñada para ofrecer gráficos de alta calidad con resolución 4K y tiempos de carga increíblemente rápidos gracias a su SSD ultra rápido. Es la elección perfecta para jugadores que buscan experiencias de juego inmersivas y realistas. Además, su amplia biblioteca de juegos garantiza horas interminables de entretenimiento.",
+    "price": 500,
+    "image": "/src/images/gamingconsole.png"
+  },
+  {
+    "id": 7,
+    "name": "4K TV",
+    "shortDescription": "Televisor 4K UHD de 55 pulgadas con HDR.",
+    "longDescription": "Este televisor 4K UHD de 55 pulgadas con soporte para HDR ofrece una calidad de imagen impresionante con colores vivos y contrastes profundos. Perfecto para ver películas o jugar videojuegos en alta definición, también incluye funciones de Smart TV para que puedas acceder a tus aplicaciones favoritas como Netflix y YouTube directamente desde el televisor.",
+    "price": 800,
+    "image": "/src/images/tv4k.png"
+  },
+  {
+    "id": 8,
+    "name": "Bluetooth Speaker",
+    "shortDescription": "Altavoz Bluetooth portátil con batería de 12 horas.",
+    "longDescription": "Este altavoz Bluetooth portátil te ofrece un sonido claro y graves profundos en un diseño compacto. Con una batería que dura hasta 12 horas, es ideal para llevarlo a cualquier lugar, desde la playa hasta una fiesta en casa. Su conectividad rápida y estable asegura una experiencia de audio continua sin interrupciones.",
+    "price": 120,
+    "image": "/src/images/bluetoothspeaker.png"
+  }
+]

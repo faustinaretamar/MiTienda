@@ -1,0 +1,49 @@
+form {
+    margin: 0 auto;
+    width: 430px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    align-items: center;
+  }
+.input-form {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+  }
+  .actiondiv-form{
+    display: grid;
+  }
+
+  .button-form {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto; /* Esto centrará el botón */
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: block; 
+    width: 60%;
+    text-align: center;
+  }
+  
+  .button-form:hover {
+    background-color: #ff4436;
+  }
+  
+.label-form{
+    display: inline;
+  font-weight: bold;
+
+}
+.div-form{
+    margin: 15px;
+}

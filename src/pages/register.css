@@ -1,0 +1,50 @@
+.register-container {
+    margin: 0 auto;
+    padding: 4rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.register-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.register-description {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+
+.login-prompt {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    color: #333;
+}
+
+.login-link {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-link:hover {
+    color: #ff4436;
+}
+
+
+
+
+
+
+.register-promo {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2.5rem;
+}
+
