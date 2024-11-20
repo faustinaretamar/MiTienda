@@ -33,3 +33,26 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+.search-input:focus {
+    border-color: #ff4436; /* Azul claro al hacer clic */
+    outline: none;
+    box-shadow: 0 0 5px rgba(227, 97, 129, 0.5);
+  }
+  

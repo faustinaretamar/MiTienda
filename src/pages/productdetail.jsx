@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '../firebaseConfig'; // Asegúrate de que esta ruta sea correcta
 import './productDetail.css';
 
 const ProductDetail = () => {
@@ -11,10 +13,14 @@ const ProductDetail = () => {
 
     useEffect(() => {
         const fetchProduct = async () => {
-            const response = await fetch('/products.json');
-            const data = await response.json();
-            const foundProduct = data.find(item => item.id === parseInt(id));
-            setProduct(foundProduct);
+            const productRef = doc(db, 'products', id); // Referencia al documento en Firestore
+            const productSnap = await getDoc(productRef); // Obtener el documento
+
+            if (productSnap.exists()) {
+                setProduct(productSnap.data()); // Establecer los datos del producto
+            } else {
+                console.log('Producto no encontrado');
+            }
         };
 
         fetchProduct();
@@ -42,7 +48,7 @@ const ProductDetail = () => {
             <div className="product-detail-gallery">
                 <img key={product.id} src={product.image} alt={product.name} className='product-additional-image'/>
                 <div className="product-detail-images">
-
+                    {/* Aquí podrías agregar más imágenes si tu producto las tiene */}
                 </div>
             </div>
         </div>
